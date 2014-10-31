@@ -1,0 +1,27 @@
+{
+    "name": "gruenspar/magento-sorted-db-layouts",
+    "type": "magento-module",
+    "license": "MIT",
+    "description": "Magento: Sorted DB layouts.",
+    "homepage": "https://github.com/gruenspar/magento-sorted-db-layouts",
+    "authors": [
+        {
+            "name": "Jan Papenbrock",
+            "email": "j.papenbrock@gruenspar.de",
+            "homepage": "https://www.gruenspar.de",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "map": [
+            ["app/code/community/Gruenspar/SortedDbLayouts", "app/code/community/Gruenspar/SortedDbLayouts"],
+            ["app/etc/modules/Gruenspar_SortedDbLayouts.xml", "app/etc/modules/Gruenspar_SortedDbLayouts.xml"]
+        ]
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

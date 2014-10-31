@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gruenspar_SortedDbLayouts>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Gruenspar_SortedDbLayouts>
+    </modules>
+</config>

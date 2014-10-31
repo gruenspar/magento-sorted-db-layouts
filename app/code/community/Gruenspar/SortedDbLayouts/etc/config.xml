@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Gruenspar_SortedDbLayouts>
+            <version>1.0.0</version>
+        </Gruenspar_SortedDbLayouts>
+    </modules>
+    <global>
+        <models>
+            <core>
+                <rewrite>
+                    <layout_update>Gruenspar_SortedDbLayouts_Model_Layout_Update</layout_update>
+                </rewrite>
+            </core>
+            <core_resource>
+                <rewrite>
+                    <layout>Gruenspar_SortedDbLayouts_Model_Resource_Layout</layout>
+                </rewrite>
+            </core_resource>
+        </models>
+    </global>
+</config>
